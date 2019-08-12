@@ -1,0 +1,14 @@
+{
+  "name": "routing-assignment",
+  "version": "1.0.0",
+  "description": "Quick Routing assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Ben Mortimer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

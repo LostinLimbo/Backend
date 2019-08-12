@@ -1,0 +1,2 @@
+To install an NPM "Package" use the line 'npm install packageName'
+To include a package in a file use 'require(packageName)'

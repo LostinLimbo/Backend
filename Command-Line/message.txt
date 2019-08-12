@@ -1,0 +1,35 @@
+Hello from Ben!
+
+POWERSHELL (CMD LINE) COMMANDS
+
+ls - List - Lists the files or folders inside the specified location.
+
+cd - Change Directory - Changes directory to the specified path, ".." can be used to go back one folder.
+
+.\ - Open File - Put ".\" in front of file name to open the specified file as a document etc.
+
+code - Open File (VS Code) - Use code in front of specified filename to open in VS Code to enable changes to be made.
+
+"" - When choosing a location, if a file/folder name has any spaces in it then putting thst psrt of the name in qoute marks will enable it to be used.
+
+ni - New Item - create new file at location
+
+mkdir - Make new folder at location
+
+rm - delete item - Delete item located in folder
+
+rename-item - rename file
+
+node "path" - run javascript file 
+
+BASH COMMANDS (IF DIFFERENT)
+
+touch - create file in specified location (leave a space if more than one)
+
+rm -rf folderName - delete entire folder
+
+
+
+
+
+Goodbye
