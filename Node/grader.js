@@ -1,3 +1,5 @@
+// Create a function to find the average of an array!
+
 var arr1 = [21, 12, 32, 45, 54];
 var arr2 = [90, 98, 89, 100, 100, 86, 94];
 var arr3 = [40, 65, 77, 82, 80, 54, 73, 63, 95, 49];

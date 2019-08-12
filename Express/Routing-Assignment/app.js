@@ -1,9 +1,11 @@
 var express = require("express");
 var app = express();
 
+// Routing for Root Dir
 app.get("/", function(req, res){
  res.send("Hi there, Welcome to my assignment!!");
 });
+// Routing for a few animal pages 
 app.get("/speak/:animal", function(req, res){
  var voice = {
   pig: "Oink!",
@@ -18,6 +20,7 @@ app.get("/speak/:animal", function(req, res){
  noise = ""
 });
 
+// Routing for a repeat page
 app.get("/repeat/:word/:num", function(req, res){
  var word = req.params.word + " ";
  var num = req.params.num;
@@ -25,13 +28,14 @@ app.get("/repeat/:word/:num", function(req, res){
   res.send(result);
  });
 
+ // Error Route 
 app.get("*", function(req, res){
  res.send(" Sorry, page not found.....What ARE you doing?")
 });
 
 
 
-
+// Run server on localhost port 80
 app.listen(80, function(){
  console.log("Listening on localhost!");
 });

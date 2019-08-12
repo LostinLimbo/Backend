@@ -1,3 +1,5 @@
+// Use a package to print a randomized menu of products and a price to go with into the console!
+
 var faker = require("faker/locale/en_GB")
 console.log("==================");
 console.log("Welcome to my Shop");
