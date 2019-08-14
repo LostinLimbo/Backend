@@ -1,0 +1,14 @@
+{
+  "name": "ejs-demo",
+  "version": "1.0.0",
+  "description": "Rendering Templates and HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "code index.js"
+  },
+  "author": "Ben Mortimer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
