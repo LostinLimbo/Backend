@@ -15,7 +15,7 @@ app.get("/fallinlovewith/:thing", function(req, res){
 
 app.get("/posts", function(req, res){
  var posts = [
-  {title: "STARDUST", author: "Ben"},
+  {title: "STARDUST!!!", author: "Ben"},
   {title: "My Awesome Ziggy", author: "Kitty"},
   {title: "HA! It's all about Teepee", author: "Sue"},
  ];
