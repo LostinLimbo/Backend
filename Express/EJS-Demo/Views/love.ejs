@@ -1,3 +1,12 @@
+
+<%# This type of brackets will add to the HTML %>
 <h1>You fell in love with: <%= thingVar.toUpperCase() %></h1>
+
+<%# This type will just run code! %>
+<% if((thingVar.toLowerCase() === "stardust") || (thingVar.toLowerCase() === "ziggy")){ %>
+    <p>Good Choice - Stardust and Ziggy are the BEST!!!</p>
+<% } else { %>
+     <p>Bad Choice! You should have said Ziggy or Stardust!!</p>
+<% } %>
 
 <p>P.s - This is the love file!</p>
