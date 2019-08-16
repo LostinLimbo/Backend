@@ -1,3 +1,5 @@
+<% include partials/Header %>
+
 <h1>Posts Page</h1>
 
 <%# for loop %>
@@ -7,11 +9,13 @@
  </li>
 <% } %>
 
-<%# forEach loop (is a little shorter as we don't n eed to worry about i) %>
+<%# forEach loop (is a little shorter as we don't need to worry about i) %>
 <% posts.forEach(function(post){ %>
  <li>
   <%= post.title %> - <strong><%= post.author %></strong>
  </li>
 <% }) %>
+
+<% include partials/Footer %>
 
 
