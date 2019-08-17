@@ -1,0 +1,91 @@
+/* Elements */
+blockquote{
+ background: #6418183a;
+ border: 1px solid grey;
+ border-radius: 5px;
+ padding: 5px 10px;
+}
+body{
+ margin: 10% 10%;
+ font-size: 17px;
+ font-family: 'Cabin', sans-serif;
+ line-height: 1.5rem;
+}
+button{
+ color: #ffffff;
+ background: #36454f;
+ border: 1px double red;
+ padding: 10px 20px;
+ border-radius: 10px;
+ outline: none;
+}
+code{
+ color: #fc2323;
+ background: #f193935d;
+ padding: 3px 5px;
+ border: 1px solid #ff3333;
+ border-radius: 2px;
+}
+footer{
+ text-align: right;
+ font-style: italic
+}
+h1{
+ text-align: center;
+ text-decoration: underline;
+ padding-bottom: 20px;
+}
+h2{
+ padding-bottom: 15px;
+}
+hr{
+ border-top: 1px solid #d3d3d3;
+ border-bottom: 1px solid #d3d3d3;
+ border-radius: 20px 20px;
+}
+i{
+ margin-left: 10px;
+}
+p{
+ padding-top: 20px;
+}
+small{
+ font-size: 1.2rem;
+}
+td{
+ text-align: center;
+}
+th{
+ text-align: center;
+}
+/* Classes */
+.block{
+ display: block;
+ margin: 5px 0;
+}
+.caps{
+ text-transform: uppercase;
+}
+.example{
+ border: 1px solid #d42525;
+ background: #ffff23;
+ display: inline;
+ padding: 0 5px;
+ color: #1010a7;
+} 
+.invalid{
+ text-decoration: line-through;
+}
+.q-left{
+ margin-right: 5px;
+}
+.q-right{
+margin-left: 5px;
+}
+.trans{
+ background: transparent;
+ z-index: 50;
+}
+.button-label{
+ margin-left: 10px;
+}

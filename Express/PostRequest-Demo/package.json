@@ -1,0 +1,16 @@
+{
+  "name": "postrequest-demo",
+  "version": "1.0.0",
+  "description": "Intro to post requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "B.Mortimer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
