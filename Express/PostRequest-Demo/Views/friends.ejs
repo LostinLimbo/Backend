@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/main.css">
+
+<h1>Friends Page "YAY!!"</h1>
+<%# this creates a list of our array "friends" from app.js %>
+<% friends.forEach(friend => { %>
+ <li><%= friend %></li>
+<% }) %>
+
+<form action="/addfriend" method="POST">
+ <input type="text" name="newfriend" placeholder="New Friend">
+ <button type="">New Friend Incoming!!</button>
+</form>
+
