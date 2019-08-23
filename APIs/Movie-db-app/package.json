@@ -1,0 +1,16 @@
+{
+  "name": "movie-db-app",
+  "version": "1.0.0",
+  "description": "Movie Search App",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
