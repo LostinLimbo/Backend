@@ -5,7 +5,7 @@ var app = express();
 var friends = ["Martin", "Pete", "Stu", "Sam", "Alice"];
 
 app.use(express.static("public"));
-// load body-pares
+// load body-parser
 bodyParser = require("body-parser");
 // using body-pareser in our app
 app.use(bodyParser.urlencoded({extended: true}));
