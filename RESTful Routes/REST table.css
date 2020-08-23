@@ -1,0 +1,56 @@
+body{
+  margin: 5% 5%;
+  font-size: 17px;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.5rem;
+ }
+table{
+  border-spacing: 0px;
+  width: 100%;
+  table-layout: auto;
+}
+th{
+  padding: 5px 10px;
+  text-align: start;
+  border: 1px dotted lightgrey;
+}
+td{
+  border: 1px dotted lightgrey;
+  padding-left: 10px;
+  padding: 5px 10px;
+}
+.danger{
+  background: #f3d9d9;
+}
+.info{
+  background: #d3e9f5;
+}
+.jumbo{
+  height: 200px;
+  background: #f3f2f3;
+  border-radius: 10px;
+}
+.jumbo h1{
+  font-size: 4.5rem;
+  margin: auto 30px;
+  padding-top: 60px;
+}
+.jumbo p{
+  margin: 30px;
+  font-size: 1.5em;
+}
+.light{
+  background: #f3f2f3;
+}
+.primary{
+  background: #daeed4;
+}
+.warning{
+  background: #fcf6dd;
+}
+
+@media screen and (max-width: 760px){
+  .jumbo h1{
+    font-size: 3rem;
+  }
+}
