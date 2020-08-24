@@ -10,7 +10,7 @@ cd - Change Directory - Changes directory to the specified path, ".." can be use
 
 code - Open File (VS Code) - Use code in front of specified filename to open in VS Code to enable changes to be made.
 
-"" - When choosing a location, if a file/folder name has any spaces in it then putting thst psrt of the name in qoute marks will enable it to be used.
+"" - When choosing a location, if a file/folder name has any spaces in it then putting thst part of the name in qoute marks will enable it to be used.
 
 ni - New Item - create new file at location
 
