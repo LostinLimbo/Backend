@@ -23,6 +23,7 @@ var Blog = mongoose.model("Blog", blogSchema);
 app.get("/", (req, res) =>{
   res.redirect("/blogs");
 });
+// INDEX
 app.get("/blogs", (req, res) =>{
   Blog.find({}, function(err, blogs){
     if(err){
@@ -32,6 +33,12 @@ app.get("/blogs", (req, res) =>{
     }
   })
 });
+// NEW
+app.get("/blogs/new", (req, res) =>{
+  res.render("new");
+});
+// CREATE
+app.post("/blogs/new")
 
 app.listen(process.env.PORT || 80, process.env.IP, function(){
   console.log("SERVER IS RUNNING");
