@@ -1,15 +1,16 @@
 <%- include ("Partials/headers") %> 
 
-<h1>Index Page!!</h1>
+<div class="main container">
+  <h1>Index Page!!</h1>
 
-<% blogs.forEach(blog => { %>
- <div>
-   <span><%= blog.created %> </span>
-   <h2><%= blog.title %></h2>
-   <img src="<%= blog.image %> " alt="">  
-   <p><%= blog.body %></p>
- </div>
-<% }) %>
-
+  <% blogs.forEach(blog => { %>
+    <div>
+      <h2><%= blog.title %></h2>
+      <span><%= blog.created %></span>
+      <img src="<%= blog.image %> " alt="">  
+      <p><%= blog.body %></p>
+    </div>
+  <% }) %>
+  </div>
 <%- include ("Partials/footers") %> 
 

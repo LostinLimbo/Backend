@@ -38,7 +38,21 @@ app.get("/blogs/new", (req, res) =>{
   res.render("new");
 });
 // CREATE
-app.post("/blogs/new")
+app.post("/blogs", (req, res) =>{
+  // Create blog
+   Blog.create(req.body.blog, (err, newBlog) =>{
+     if (err){
+       res.render("new");
+     }  else { 
+       // Then, redirect to the index page
+       res.redirect("/blogs");
+     }
+   });  
+});
+//  SHOW ROUTE
+app.get("/blogs/:id", (req, res) =>{
+  res.render("show");
+});
 
 app.listen(process.env.PORT || 80, process.env.IP, function(){
   console.log("SERVER IS RUNNING");
