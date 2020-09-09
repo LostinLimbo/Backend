@@ -1,3 +1,27 @@
-<div class="main container">
-  <h1>SHOW PAGE</h1>
+<%- include ("Partials/headers") %> 
+
+
+<div class="ui text main container segment">
+  <div class="ui huge header">
+    <%= blog.title %>
+  </div>
+  <div class="ui top attached">
+    <div class="item">
+      <img class="ui centered rounded image" src="<%= blog.image %> " alt="">
+      <div class="content">
+        <span><%= blog.created.toDateString() %></span>
+      <div class="description">
+        <p><%= blog.body %></p>
+      </div>
+        <button class="ui yellow basic button">Edit</button>
+        <form action="/blogs<%= blog._id %>?_method=DELETE" method="POST">
+          <button class="ui red basic button">Delete</button>
+        </form>    
+        
+      </div>  
+    </div>
+  </div>
 </div>
+
+
+<%- include ("Partials/footers") %>
