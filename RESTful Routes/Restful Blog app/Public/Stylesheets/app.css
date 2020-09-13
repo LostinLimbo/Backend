@@ -10,3 +10,6 @@ i.icon{
 .ui.form textarea:focus{
   border-color: #21ba45;
 }
+#delete{
+  display: inline;
+}
