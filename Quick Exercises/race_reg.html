@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script>
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+    ':35729/livereload.js?snipver=1"></' + 'script>')
+</script>
+
+<body>
+
+  <main>
+    <header>
+      <h1>Race Registration!</h1>
+    </header>
+    <form action="" method="post">
+      <section>
+        <label for="first">First Name</label>
+        <input type="text" name="firstName" id="first">
+        <label for="last">Last Name</label>
+        <input type="text" name="lastName" id="last">
+      </section>
+      <section>
+        <p>Select a Race:</p>
+        <label for="fun">Fun Run 5k</label>
+        <input type="radio" name="fun" id="fun">
+        <label for="half">Half Marathon</label>
+        <input type="radio" name="half" id="half">
+        <label for="full">Full Marathon</label>
+        <input type="radio" name="full" id="full">
+      </section>
+      <section>
+        <label for="email">E-Mail</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" minlength="8" maxlength="15" required>
+      </section>
+    </form>
+
+
+  </main>
+</body>
+
+</html>
